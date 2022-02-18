@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <title>Marvel Api @DZM</title>
+</head>
+<body style = "background-image:url(/img/gradientred.jpg)">
+    <div class="topo">
+        <p>
+        <img  class="rotate_01"src="img\marvel logo.png">    
+        <h1>Marvel Comics</h1>
+        Buscando dados na API da Marvel <br>
+        <h4>Data provided by Marvel. © 2014 Marvel</h4>
+        </p>
+    </div>
+    <div class="quadro">
+        <br>
+        <form id="frm" action="#">
+            Nome:
+            <input type="text" id="nome" size="50"><br>
+            <input type="button" class="btn" id="btn" value="Go!">
+        </form>
+    </div>
+    <br>
+    <h4>Resultado da busca</h4>
+    <div class="quadro" id="resultado_busca">
+
+    </div>
+    <br>
+    <div class="quadro">
+        <div class="casa header" id="char">Personagem</div>
+        <div class="casa">
+            <img id="thumb" class="thumb" src="/img/x200.png"">
+        </div>
+        <div class="casa" id="info">Informações</div>
+        
+    </div>
+    <script src="/scripts/main.js"></script>
+    <script src="/scripts/private_key.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+
+</body>
+
+</html>

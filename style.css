@@ -1,0 +1,115 @@
+.rotate_01 {
+  display: flex;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  padding: auto;
+  transition: -webkit-transform 1.85s;
+}
+.rotate_01:hover {
+  transform: rotate(720deg) translateZ(0);
+}
+.topo {
+  width: 450;
+  min-height: 90px;
+  margin: auto;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.877);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h4 {
+  margin: auto;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.877);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.quadro {
+  width: 450px;
+  min-height: 78px;
+  margin: auto;
+  border: 4px outset rgba(218, 214, 214, 0.856);
+  border-radius: 15px;
+  text-align: center;
+  background-color: rgba(46, 40, 40, 0.164);
+}
+
+.lista {
+  line-height: 40px;
+  margin: 5px;
+  border-radius: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.lista li {
+  cursor: pointer;
+  text-align: left;
+  font-weight: lighter;
+  font-size: 18px;
+  list-style-type: none;
+  background-color: rgba(46, 40, 40, 0.164);
+  color: rgba(255, 255, 255, 0.877);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px 10px;
+  padding-left: 20px;
+}
+
+.casa {
+  width: 360px;
+  min-height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 15px;
+  color: rgba(255, 255, 255, 0.877);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
+
+.header {
+  font-size: 1.5rem;
+  font-weight: "bold";
+}
+
+.btn {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgba(43, 41, 41, 0.671);
+  color: rgba(255, 255, 255, 0.877);
+  width: 115px;
+  margin: 15px 5px;
+  width: auto;
+  border-radius: 7px;
+  cursor: pointer;
+  transition-duration: 0.75s;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.thumb {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  padding: auto;
+  transition: -webkit-transform 1.85s;
+}
+.thumb:hover {
+  transform: rotate(-720deg) translateZ(0);
+}
+
+.icon {
+  width: 64px;
+  height: 64px;
+}
+
+#frm {
+  color: rgba(255, 255, 255, 0.877);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
